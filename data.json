@@ -1,0 +1,35 @@
+{
+    "version": 2,
+    "debug": false,
+    "host": "0.0.0.0",
+    "port": 9010,
+    "secret": "123456",
+    "status": 0,
+    "app_name": "One UI Home",
+    "status_list": [
+        {
+            "id": 0,
+            "name": "APP",
+            "desc": "目前手机使用的应用，大概率在玩手机摸鱼。",
+            "color": "awake"
+        },
+        {
+            "id": 1,
+            "name": "似了",
+            "desc": "睡似了或其他原因不在线，紧急情况请使用电话联系。",
+            "color": "sleeping"
+        }
+    ],
+    "app_mapping": {
+        "One UI Home": 0,
+        "哔哩哔哩": 0
+    },
+    "other": {
+        "user": "第一只伦巴",
+        "background": "https://ghsrc.wyf9.top/img13.jpg",
+        "alpha": 0.85,
+        "learn_more": "GitHub Repo",
+        "repo": "https://github.com/diyizhilunba/sleepy",
+        "more_text": ""
+    }
+}
