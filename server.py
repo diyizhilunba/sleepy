@@ -59,7 +59,6 @@ def index():
         more_text=ot['more_text']
     )
 
-
 @app.route('/style.css')
 def style_css():
     response = make_response(render_template(
